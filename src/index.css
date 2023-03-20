@@ -1,0 +1,47 @@
+
+
+body {
+    background-color: #84CEEB
+
+}
+
+.fields{
+    margin: 20px 0px;
+    border-radius: 25px;
+    background-color: white;
+
+} 
+.input{
+    font-size: 20px;
+   background-color: white;
+   margin: 20px 20px 20px 20px;
+   padding: 10px 10px 10px 10px;
+}
+
+.button{
+    
+   background-color: aquamarine;
+    font-size: 20px;
+    margin: 20px 20px 20px 20px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 25px;
+    
+}
+
+.avatar{
+    margin: 20px 20px 20px 20px;
+
+    vertical-align: middle;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border-width: 5px;
+    border-color: rgb(98, 96, 226);
+    border-style: outset;
+}
+
+.massage{
+    margin: 20px 20px 20px 20px;
+    color: rgb(98, 96, 226);
+}
+
