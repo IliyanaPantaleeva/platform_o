@@ -49,19 +49,19 @@ Soft World Communication Platform is a SPA application where team members can le
 
   - ### Home page
 
-  ![display home ](.../../src/assets/1.jpg)
+  ![display home ](1.jpg)
 
   
   - ### Profile page
 
-  ![display profile ](.../../src/assets/2.jpg)
+  ![display profile ](2.jpg)
 
 
   - ### Post page
 
-  ![display post ](.../../src/assets/3.jpg)
+  ![display post ](3.jpg)
   
   - ### Menu all users
 
-  ![display all users ](.../../src/assets/4.jpg)
+  ![display all users ](4.jpg)
   
