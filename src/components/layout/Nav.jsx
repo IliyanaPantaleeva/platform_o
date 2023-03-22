@@ -1,7 +1,7 @@
 import { Button, Flex, Link, Box, Image } from "@chakra-ui/react";
 import { Link as RouterLink, useNavigate } from "react-router-dom";
 import { useLogout } from "../../hook/auth";
-import { NAVBAR } from "../../lib/routes";
+import { NAVBAR, USERS } from "../../lib/routes";
 import soft from '../../assets/sl.jpg'
 
 export default function Nav() {
@@ -29,9 +29,14 @@ export default function Nav() {
       </Flex>
 
       <Flex px="3" w="full" align="center" maxW="1200px" bg="whiteAlpha.300">
+        <Flex justify='space-between' gap='10' mr='5%'>
         <Link color="white" as={RouterLink} to={NAVBAR} fontWeight="bold">
           Home
         </Link>
+        <Link color="white" as={RouterLink} to={USERS} fontWeight="bold">
+        Users
+        </Link>
+        </Flex>
         <Button
           ml="auto"
           colorScheme="gray"
