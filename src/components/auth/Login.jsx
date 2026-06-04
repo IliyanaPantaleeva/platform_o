@@ -36,7 +36,14 @@ export default function Login() {
    if(succeeded) reset();
   }
   return (
-    <Center w="100%" h="100vh">
+    <Center
+      w="100%"
+      h="100vh"
+      bgImage={"url('https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop')"}
+      bgSize="cover"
+      bgPosition="center"
+      bgRepeat="no-repeat"
+    >
       <Box mx="1" maxW="md" p="9" borderWidth="1px" borderRadius="lg">
         <Heading mb="4" size="lg" textAlign="center">
           Log In{" "}
